@@ -12,17 +12,23 @@ A web app where an emergency worker can input a new message and get classificati
 
 ### app folder
 **master.html** - main page of web app
+
 **go.html** - classification result page of web app
+
 **run.py** - Flask file that runs app
 
 ### data folder
 **disaster_categories.csv** - data to process 
+
 **disaster_messages.csv** - data to process
+
 **process_data.py** - ETL pipeline used to load, clean, extract feature and store data in SQLite database
+
 **DisasterResponse.db**- database to save clean data to
 
 ### models folder
 **train_classifier.py** - ML pipeline used to load cleaned data, train model, and save trained model as pickle (.pkl) file for later use
+
 **classifier.pkl** - saved model 
 
 
